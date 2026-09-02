@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+h2 {
+  font-size: 17px;
+  font-style: italic;
+}
+
+.teste {
+  color: red;
+  font-size: 20px;
+}
+
+.paragrafo {
+  color: green;
+  font-size: 36px;
+}
+
+[type="button"] {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  font-size: 24px;
+}
+
+[name="paragrafoTeste"] {
+  color: blue;
+  font-size: 24px;
+}
+
+[name] {
+  padding-top: 50px;
+}
+
+div {
+  background-color: crimson;
+}
+
+div h2 {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.bg {
+  width: 100%;
+  height: 400px;
+  background-image: url("../../imagens/EldenRingDlc.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.d1 {
+  width: 50%;
+  height: 300px;
+  overflow: scroll;
+  display: inline-block;
+  background-color: blue;
+  vertical-align: top;
+}
+.d2 {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  background-color: red;
+}
+.d3 {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  background-color: green;
+}
